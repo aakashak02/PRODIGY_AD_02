@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.todo-app {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.add-task {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:active {
+    background-color: #2980b9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.delete-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-button:active {
+    background-color: #c0392b;
+}
+
+.complete-checkbox {
+    margin-right: 10px;
+}
